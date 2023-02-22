@@ -3,8 +3,8 @@
         // Get the navbar element
         const navbar = document.getElementById('nav');
       
-        // Get all of the elements inside the navbar that are links
-        const navbarLinks = navbar.querySelectorAll('a');
+        // Get all of the elements inside the navbar that are list items
+        const navbarLinks = navbar.querySelectorAll('li');
       
         // Loop through each link element and add an event listener for when it is hovered over
         navbarLinks.forEach(link => {
