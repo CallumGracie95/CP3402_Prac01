@@ -23,37 +23,45 @@ By tracking services and consumables used the new owner can be more informed on 
     </head>
     <body class="font-poppins text-gray-700">
         <!--Set background image-->
-        <div class="h-screen sm:md mx-auto bg-cover bg-center" style="background-image: url('Hero.jpg')">
             <!--navbar-->
-            <nav class="py-4 ml-24 text-xl pt-6" id="nav">
-                <ul class="flex flex-row justify-center gap-x-20  ml-auto">
+            <nav class="py-4 text-xl pl-24 bg-gray-200 pt-6" id="nav">
+                <ul class="flex flex-row  gap-x-20  ml-auto">
                     <a href="index.html" class="h-15 w-40"><img src="logo.png"></a>
-                    <li class="shadow-2xl"><a class="bg-gray-700 text-white px-5 py-2 rounded-lg border-black font-medium shadow-2xl" href="index.html">Login</a></li>
+                    <li class="shadow-2xl"><a class="bg-gray-400 text-white px-5 py-2 rounded-lg border-black font-medium shadow-2xl border-black border hover:bg-white hover:text-black hoever: font-semibold" href="index.html">Home</a></li>
                     <li><a href="features.html">Features</a></li>
-                    <li><a href="index.html">Contact</a></li>
                 </ul>
             </nav>
         <!--Content-->
-        <div class="flex flex-col gap-y-10 ml-24 mt-8 w-96  text-lg items-center font-bold ">
-            <button class="font-medium shadow-2xl bg-gray-700 text-white px-3 py-2 rounded-lg">Get Started Now</button>
-            <div class="shadow-md">Manage & Review Vehicle History</div>
-            <div class="shadow-md">Record Maintenance</div>
-            <div class="shadow-md">Develop a Service Schedule</div>
-            <div class="shadow-md">Track Owner History</div>
-        </div>
+        <!--About section on home page-->
+        <section id="about">
+            <div class="flex flex-row gap-x-20 items-center justify-center">
+                <div class="text-2xl text-gray-700 font-bold mt-8">Coming Soon...<br> New range of services to help you manage your vehicle</div>
+                <div><img class="h-80 w-140 ml-10" src="car.svg"></div>
+            </div>
 
-        <div class="absolute bottom-20 left-1/2 font-bold">
-            <div class="flex gap-x-4 justify-start">
-                <p class="">Phone</p>
-                <p class="text-sm">0406 854 011</p>
+			<div class="flex flex-row gap-x-20 text-left px-24 mt-12 items-center justify-center ">
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Service reminders</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Service history</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Expense tracking</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Document storage</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Vehicle analytics</button>
+			</div>
+        </section>
+
+        <section id="contact">
+            <div class="flex flex-col justify-center items-center mt-24">
+                <div class="flex gap-x-4 ">
+                    <p class="font-semibold">Phone</p>
+                    <p class="text-sm">0406 854 011</p>
+                </div>
+                <div class="flex gap-x-6">
+                    <p class="font-semibold">Email </p>
+                    <p class="text-sm">VehicleVault@contact.com.au</p>
+                </div>
+                <a href="index.html" class="h-15 w-40 border-b-2 border-gray-700 pb-2 mt-4"><img src="logo.png"></a>
             </div>
-            <div class="flex gap-x-6">
-                <p class="">Email </p>
-                <p class="text-sm">VehicleVault@contact.com.au</p>
-            </div>
-            <div class="h-15 w-40 border-b-2 border-gray-700 pb-2 mt-4"><img src="logo.png"></div>
-        </div>
-    </div>
+        </section>
+
 </body>
 </html>
 

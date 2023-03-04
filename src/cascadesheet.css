@@ -1,0 +1,33 @@
+ul {
+    color: gray;
+    display: flex ;
+    padding-left: 3px ;
+    padding-right: 30px;
+    list-style-type: none;
+
+
+}
+
+li {
+    padding: 5px 25px 2px 0px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #b3b3cc;
+    color: white;
+}
+
+li:active {
+    background-color: #b3b3cc;
+    color: white;
+}
+
+body {
+    background-color: #e0e0eb;
+    padding: 0px 100px 10px 100px
+}
+
+a {
+    color: black;
+}
