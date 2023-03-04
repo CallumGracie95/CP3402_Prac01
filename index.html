@@ -1,0 +1,91 @@
+<!--Vehicle vault aims to provide an archive vehicle history. 
+This includes previous owners, VIN, manufacturer details, service history and schedule.
+The goal is to provide a single point of view for vehicle owners to review vehicle data.
+This is useful particularly for aging vehicles where logbooks are often lost or incomplete.
+By tracking services and consumables used the new owner can be more informed on what to priortise for future maintenance
+
+- upload documents from service centres
+- upload personal receipts of consumables + notes on personal maintenance  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link href="/dist/output.css" rel="stylesheet">
+        <script src="scripts.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body class="font-poppins text-gray-700">
+        <!--Set background image-->
+            <!--navbar-->
+            <nav class="py-4 text-xl pl-24 bg-gray-200 pt-6" id="nav">
+                <ul class="flex flex-row  gap-x-20  ml-auto">
+                    <a href="index.html" class="h-15 w-40"><img src="logo.png"></a>
+                    <li class="shadow-2xl"><a class="bg-gray-400 text-white px-5 py-2 rounded-lg border-black font-medium shadow-2xl border-black border hover:bg-white hover:text-black hoever: font-semibold" href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                </ul>
+            </nav>
+        <!--Content-->
+        <!--About section on home page-->
+        <section id="about">
+            <div class="flex flex-row gap-x-20 items-center justify-center">
+                <div class="text-2xl text-gray-700 font-bold mt-8">Coming Soon...<br> New range of services to help you manage your vehicle</div>
+                <div><img class="h-80 w-140 ml-10" src="car.svg"></div>
+            </div>
+
+			<div class="flex flex-row gap-x-20 text-left px-24 mt-12 items-center justify-center ">
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Service reminders</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Service history</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Expense tracking</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Document storage</button>
+				<button class="bg-gray-200 border-gray-500 font-bold border-2 border rounded-xl px-5 py-2 text-left w-56 h-56 hover:border-gray-300 text-center">Vehicle analytics</button>
+			</div>
+        </section>
+
+        <section id="contact">
+            <div class="flex flex-col justify-center items-center mt-24">
+                <div class="flex gap-x-4 ">
+                    <p class="font-semibold">Phone</p>
+                    <p class="text-sm">0406 854 011</p>
+                </div>
+                <div class="flex gap-x-6">
+                    <p class="font-semibold">Email </p>
+                    <p class="text-sm">VehicleVault@contact.com.au</p>
+                </div>
+                <a href="index.html" class="h-15 w-40 border-b-2 border-gray-700 pb-2 mt-4"><img src="logo.png"></a>
+            </div>
+        </section>
+
+</body>
+</html>
+
+<!-- <script>
+    // Get the navbar element by its ID
+const navbar = document.getElementById('nav');
+
+// Get all of the elements inside the navbar that are links
+const navbarLinks = navbar.querySelectorAll('a');
+
+// Loop through each link element and add an event listener for when it is hovered over
+navbarLinks.forEach(link => {
+link.addEventListener('mouseover', () => {
+// When the link is hovered over, add the 'font-bold' class to make the text bold
+link.classList.add('font-bold');
+// Also add the 'border-b-2' class to create a 2-pixel border at the bottom of the link
+link.classList.add('border-b-2', 'border-black');
+});
+
+// Add an event listener for when the mouse leaves the link
+link.addEventListener('mouseout', () => {
+// When the mouse leaves the link, remove the 'font-bold' and 'border-b-2' classes
+link.classList.remove('font-bold', 'border-b-2', 'border-black');
+});
+});
+</script> -->
