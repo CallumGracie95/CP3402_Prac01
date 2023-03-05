@@ -4,8 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+
+    "build": "webpack --mode production --output-path dist"
   },
   "repository": {
     "type": "git",
